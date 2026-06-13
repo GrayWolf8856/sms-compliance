@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMS Notifications — Opt-In &amp; Terms — Kyle Tech Corner</title>
+<meta name="description" content="How the Kyle Tech Corner home lab SMS notification system works: opt-in, message types, frequency, and opt-out.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="logo">KT</span>Kyle&nbsp;Tech&nbsp;<span class="tag">Corner</span></a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="notifications.html">Notifications</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+      <a class="yt" href="https://www.youtube.com/@KyleTechCorner" target="_blank" rel="noopener">YouTube</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+  <div class="wrap prose" style="max-width:740px">
+    <span class="tag-pill">SMS Program · Opt-In &amp; Terms</span>
+    <h1>Home Lab SMS Notifications</h1>
+    <p class="meta">Program operated by Kyle Cosper (Kyle Tech Corner Home Lab), Temple, TX</p>
+
+    <p class="lede">This page documents how the operator of the Kyle Tech Corner home lab receives
+    automated SMS notifications from his own self-hosted monitoring system, and how to opt in and
+    out. The operator is the recipient of these alerts; no consumers or third parties are marketed to.</p>
+
+    <h2>How opt-in works</h2>
+    <p>Opt-in occurs inside the self-hosted home lab application, on the
+    <strong>Settings &rarr; Notifications</strong> page. The operator enters his own mobile phone
+    number and must check the consent checkbox below before SMS notifications are enabled. The
+    "Enable SMS Alerts" control stays disabled until consent is given.</p>
+
+    <div class="consent-box">
+      <strong>Consent language (shown at opt-in):</strong>
+      <p style="margin:.6rem 0 0">"I consent to receive automated SMS notifications from Kyle Tech
+      Corner Home Lab at the number provided. Message frequency varies. Message &amp; data rates
+      may apply. Reply STOP to opt out, HELP for help. See our
+      <a href="privacy.html">Privacy Policy</a>."</p>
+    </div>
+
+    <h2>What messages you'll get</h2>
+    <ul>
+      <li><strong>System &amp; uptime alerts</strong> — a host or service going down, and recovery notices.</li>
+      <li><strong>Monitoring &amp; environment</strong> — resource thresholds (CPU, memory) and environmental/weather monitoring for the lab's location.</li>
+      <li><strong>Backup reports</strong> — confirmation that scheduled backups completed, or alerts if they failed.</li>
+    </ul>
+    <p style="color:var(--ink-soft)"><em>Example:</em> "Kyle Tech Corner Home Lab: Server media-01
+    is back online. CPU 12%, memory 43%. Reply STOP to opt out."</p>
+
+    <h2>Message frequency &amp; rates</h2>
+    <p>Message frequency varies based on system events. Message and data rates may apply depending
+    on your mobile carrier and plan.</p>
+
+    <h2>Opt-out &amp; help</h2>
+    <p>Reply <strong>STOP</strong> to any message to unsubscribe at any time. Reply
+    <strong>HELP</strong> for assistance, or contact
+    <a href="mailto:kyleecosper@gmail.com">kyleecosper@gmail.com</a>.</p>
+
+    <div class="highlight">
+      <strong>Your privacy:</strong> No mobile information is shared with third parties or
+      affiliates for marketing or promotional purposes. Full details in our
+      <a href="privacy.html">Privacy Policy</a>.
+    </div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="wrap row">
+    <div>© 2026 Kyle Tech Corner · Operated by <strong>Kyle Cosper</strong>, Temple, TX</div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
